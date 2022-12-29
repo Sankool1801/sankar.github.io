@@ -1,57 +1,224 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Site</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="favicon.ico">
-    <a href="SubCode"></a>
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="Images/cloud.png" alt="Cloud">
-      <h1>I am Sankara Narayanan B</h1>
-      <p><h2>a <span class="pro">pro</span>grammer</h2> </p>
+<html>
 
-      <img class="bottom-cloud" src="Images/cloud.png" alt="Cloud">
-      <img src="Images/mountain.png" alt="Mountain">
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img src="Images/computer.png" alt="Prof">
-        <h2>Hello.</h2>
-        <p class="intro"></p>
-      </div>
-      <hr>
-      <div class="skills">
-        <h2>My Strengths.</h2>
-        <div class="skill-row">
-          <img class="hlo" src="Images/chillies.png" alt="no">
-          <h3>Spirit to Perform</h3>
-          <p>I am generally a person who has the drive to perform better and under pressure</p>
+<head>
+  <meta charset="utf-8">
+  <title>Intro</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">Sankara Narayanan B</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#strengths">Strengths</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">POV</a>
+            </li>
+          </ul>
+
         </div>
-        <div class="skill-row">
-          <img class="bye" src="Images/cloud.png" alt="bye">
-          <h3>Passion to Learn</h3>
-          <p>I always have the passion to learn and everyday is a learning curve</p>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 class="big-heading">If my mind can conceive it, My heart can believe it, I know I can achieve it!</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button">Success</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button">Victory</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="./images/self.jpg" alt="self">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features of me -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Frank</h3>
+          <p>I am somoene who speaks very frankly</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Target</h3>
+          <p>Hitting the target is always fun for me.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Compassion.</h3>
+          <p>Humanity and humans matter a lot to me.</p>
         </div>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Contact.</h3>
-        <p class="ds">Contacts helps to build networks.</p>
-        <a class="btn" href="mailto:sankaran879@email.com">CONTACT ME</a>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">I don't care about people who talk behind my back.</h2>
+          <img class="testimonial-image" src="./images/self.jpg" alt="profile">
+          <em>Sankara</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Smile even when you cannot.</h2>
+          <img class="testimonial-image" src="./images/kane.jpg" alt="idol">
+          <em>Kane Williamson,my idol</em>
+        </div>
       </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+      </a>
     </div>
 
+  </section>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/sankara-narayanan-b-abba28191?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BN9keBkK%2FRqORKP2JzvnFDw%3D%3D">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/Sankara58780471">Twitter</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p class="footer-link">© 2022 Sankara Narayanan.</p>
+
+
+  <!-- Strengths and skills(pricing oneself)-->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">Skills and Strengths</h2>
+    <p>Sharp skills and ability to price oneself is really important.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Quick Learner</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Grasp</h2>
+            <p>Grasp things quickly</p>
+            <p>Desire to learn</p>
+            <p>Trust the process</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Programming</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Languages and others</h2>
+            <p>C,C++,Python</p>
+            <p>HTML,CSS</p>
+            <p>Leetcode 2 star</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Hobbies</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Interests</h2>
+            <p>Music</p>
+            <p>Cricket</p>
+            <p>Books</p>
+
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
 
-  </body>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Every second is a joyful event and increase your efforts.</h3>
+          </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2022 Sankara</p>
+    </div>
+  </footer>
+
+
+</body>
+
 </html>
